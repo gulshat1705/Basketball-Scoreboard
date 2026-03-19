@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="item">
+          <h3>HOME</h3>
+          <p id="home-score" class="score">0</p>
+          <div id="home-btns" class="btn-items">
+            <button id="btn-1" class="btn" onclick="addOne()">+1</button>
+            <button id="" class="btn" onclick="addTwo()">+2</button>
+            <button id="" class="btn" onclick="addThree()">+3</button>
+          </div>
+        </div>
+        <div class="item">
+          <p id="timer" class="timer">
+            <span id="min">00</span>:<span id="sec">00</span>
+          </p>
+        </div>
+        <div class="item-score">
+          <h3>GUEST</h3>
+          <p id="guest-score" class="score">0</p>
+
+          <div id="guest-btns" class="btn-items">
+            <button id="btn-2" class="btn" onclick="addOneToGuest()">+1</button>
+            <button id="" class="btn" onclick="addTwoToGuest()">+2</button>
+            <button id="" class="btn" onclick="addThreeToGuest()">+3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/timer.js"></script>
+    <script src="js/score.js"></script>
+  </body>
+</html>
